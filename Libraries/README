@@ -14,19 +14,24 @@ Boost Notes
 
 For debug builds use:
 
+libboost_date_time-vc100-mt-sgd-1_45.lib
 libboost_filesystem-vc100-mt-sgd-1_45.lib
 libboost_system-vc100-mt-sgd-1_45.lib
+libboost_thread-vc100-mt-sgd-1_45.lib
 
 rather than the libraries given below. Depending on which version of boost is used the version numbers for the libraries, 1_45 in this case, will be different.
 
 FMWrapper.lib
+iconv.lib
+libboost_date_time-vc100-mt-s-1_45.lib
 libboost_filesystem-vc100-mt-s-1_45.lib
 libboost_system-vc100-mt-s-1_45.lib
-iconv.lib
+libboost_thread-vc100-mt-s-1_45.lib
 libcharset.lib
-zlibstat.lib
+libcurl.lib
+libeay32.lib
+libexslt_a.lib
 libxml2_a.lib
 libxslt_a.lib
-libexslt_a.lib
-
-
+ssleay32.lib
+zlibstat.lib

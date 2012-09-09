@@ -4,12 +4,17 @@ When building the BaseElements Plugin the following headers/directories should b
 Mac OS X
 
 boost
+FMWrapper
 
 Windows
 
 boost
+curl
+FMWrapper
 iconv/iconv.h
-zlib.h
+libexslt
 libxml
 libxsl
-libexslt
+openssl
+zconf.h
+zlib.h

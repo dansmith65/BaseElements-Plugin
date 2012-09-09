@@ -144,7 +144,7 @@ Build the library and move
 
 	contrib/vstudio/vc10/x86/ZlibStatReleaseWithoutAsm/zlibstat.lib
 
-in the Libraries directory and zlib.h in the Headers directory.
+in the Libraries directory and zlib.h and zconf.h in the Headers directory.
 
 
 =======================================================================
@@ -297,7 +297,7 @@ Finally, place the headers directory
 
 in the Headers directory and copy the library itself
 
-	bin.msvc\libxml2_a.lib
+	win32\bin.msvc\libxml2_a.lib
 
 into the Libraries directory.
 
@@ -348,11 +348,11 @@ to configure and build the source.
 
 Finally, place the headers from the directories
 
-	libxslt-1.1.26\include\libxslt & libxslt-1.1.26\include\libexslt
+	libxslt-1.1.26\libxslt & libxslt-1.1.26\libexslt
 
 into directories, libxslt & libexslt, in the Headers directory and copy the libraries
 
-	bin.msvc\libxslt_a.lib & bin.msvc\libexslt_a.lib
+	win32\bin.msvc\libxslt_a.lib & win32\bin.msvc\libexslt_a.lib
 
 into the Libraries directory.
 
@@ -382,7 +382,7 @@ Unpack the archive onto the desktop and, using the command prompt
 	nmake -f ms\nt.mak
 
 
-	Copy libeay32.lib and ssleay32.lib to Libraries and copy includes/openssl to Headers.
+	Copy out32\libeay32.lib and out32\ssleay32.lib to Libraries and copy inc32/openssl to Headers.
 
 =======================================================================
 libcurl
